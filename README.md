@@ -4,6 +4,6 @@ This website for---
  
  2. Contact Lenses and Laser Vision business
   
- 4.For Eye Doctor & Ophthalmologist
+ 3.For Eye Doctor & Ophthalmologist
  
 Click here for the view live site :  https://boring-pare-6a8d79.netlify.app/
