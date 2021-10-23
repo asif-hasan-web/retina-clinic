@@ -1,0 +1,76 @@
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    list-style: none;
+}
+.footer-area a {
+    color: #999999;
+    transition: 0.2s;
+  }
+  .footer-area {
+    padding: 40px 0;
+    background: #fafafa;
+  }
+  .footer-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-area li {
+    display:block;
+    text-transform: capitalize;
+  }
+  
+  .footer-area li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+  .footer-area li a:hover{
+    color: #5754f7;
+  }
+  .icons-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.icons-footer li a {
+    background: #f3f3f4;
+    margin: 14px;
+    border-radius: 50%;
+    height: 63%;
+    font-weight: 700;
+    font-size: 21px;
+    width: 77%;
+    color: #5a58f0;
+}
+.icons-footer li a:hover{
+    background: #5a58f0;
+    color: #fff;
+}
+.eamil-subscribe-item {
+    margin-bottom: 34px;
+}
+.eamil-subscribe-item input[type="email"] {
+    width: 67%;
+    background-color: #f6f6f6;
+    border-color: #f6f6f6;
+    margin-right: -5px;
+    border: none;
+    padding: 13px;
+}
+.eamil-subscribe-item input[type="submit"] {
+    width: 34%;
+    padding: 13px;
+    border-radius: 0;
+    background: #5a58f0;
+    color: #fff;
+    border: none;
+}
+.eamil-subscribe-item input[type="submit"]:hover{
+    background: #6d6bf0;
+    color:#fff ;
+}
+  

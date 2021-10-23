@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 .App {
   text-align: center;
 }
@@ -26,6 +31,44 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  width: 100%;
+}
+
+.img__description {
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  left: -202px;
+  right: 0;
+  background: rgb(70 71 71 / 82%);
+  color: #ffffff;
+  visibility: hidden;
+  opacity: 0.5;
+  padding: 20px 0px;
+  /* margin: 0; */
+  border: 1px solid #ffffff;
+  transition: opacity .2s, visibility .2s;
+}
+
+.welcomeImg {
+  width: 300px;
+  height: 188px;
+  border-radius: 8px;
+  box-shadow: 1px solid black;
+  box-shadow: 8px 8px #0000000d;
+}
+.newsimg{
+  height: 400px;
+  width:100%
+}
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
 }
 
 @keyframes App-logo-spin {
